@@ -22,46 +22,46 @@ Autor: Everton Mendes - rosario.everton@gmail.com
 		1. Ir a pasta raiz
 		2. mvn spring-boot:run
 
-#Serviços disponibilizados
+	#Serviços disponibilizados
 
-POST http://{host}:8080/api/v1/cliente
-Accept: application/json
-Content-Type: application/json
+		POST http://{host}:8080/api/v1/cliente
+		Accept: application/json
+		Content-Type: application/json
 
-{
-   "name": "meu nome",
-   "age":"12"
+		{
+		   "name": "meu nome",
+		   "age":"12"
 
-}
+		}
 
-###
+		###
 
-GET http://{host}:8080/api/v1/cliente/{id}
-Accept: application/json
-Content-Type: application/json
+		GET http://{host}:8080/api/v1/cliente/{id}
+		Accept: application/json
+		Content-Type: application/json
 
-###
+		###
 
-GET http://{host}:8080/api/v1/cliente
-Accept: application/json
-Content-Type: application/json
+		GET http://{host}:8080/api/v1/cliente
+		Accept: application/json
+		Content-Type: application/json
 
-###
+		###
 
-PUT http://{host}:8080/api/v1/cliente
-Accept: application/json
-Content-Type: application/json
+		PUT http://{host}:8080/api/v1/cliente
+		Accept: application/json
+		Content-Type: application/json
 
-{
-  "identificador": 1,
-  "name": "meu nome",
-  "age": 22
-}
+		{
+		  "identificador": 1,
+		  "name": "meu nome",
+		  "age": 22
+		}
 
-###
+		###
 
-DELETE http://{host}:8080/api/v1/cliente/1
-Accept: application/json
-Content-Type: application/json
+		DELETE http://{host}:8080/api/v1/cliente/1
+		Accept: application/json
+		Content-Type: application/json
 
-###
+		###
